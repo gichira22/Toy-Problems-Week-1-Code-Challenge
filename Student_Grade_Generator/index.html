@@ -16,15 +16,16 @@
                 </div>
             </div>
             <div class="content">
-                <div class="right-box">
+                <form class="right-box" onsubmit="return validateFormGrader()">
                   <h2>Marks</h2>
-                    <input type="number" id="ht" placeholder="HyperText Mark-up Language">
-                    <input type="number" id="css" placeholder="Cascading Styling Sheet(CSS)">
-                    <input type="number" id="js" placeholder="JavaScript">
-                    <input type="number" id="py" placeholder="Python">
-                    <input type="number" id="sq" placeholder="MySQL">
-                    <button type="button" onclick="Generate_Results()">Generate Results</button>
-                </div>
+                    <input type="number" min="0" max="100" id="ht" placeholder="HyperText Mark-up Language" required>
+                    <input type="number" min="0" max="100" id="css" placeholder="Cascading Styling Sheet(CSS)" required>
+                    <input type="number" min="0" max="100" id="js" placeholder="JavaScript" required>
+                    <input type="number" min="0" max="100" id="py" placeholder="Python" required>
+                    <input type="number" min="0" max="100" id="sq" placeholder="MySQL" required>
+                    <button type="sudmit">Generate Results</button>
+                </form>
+                <p id="error"></p>
             </div>
             <div class="result">
                 <h2></h2>
