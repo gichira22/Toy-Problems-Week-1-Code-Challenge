@@ -1,0 +1,30 @@
+body{
+    background-color: blanchedalmond;
+    /*background-image: url(./Background.png);*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Arial;
+    font-weight: bold;
+    display:grid;
+    place-content: center;
+    min-height: 100vh;    
+}
+.result{
+    position: absolute;
+    bottom: 182px;
+    width: 250px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 0px 0px 0px 10px;
+}
+.result h2{
+    text-align: center;
+    line-height: 50px;
+    font-size: large;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 3px;
+    background-color: burlywood;
+}

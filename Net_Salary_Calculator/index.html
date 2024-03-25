@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="main.css">
+<script src="script.js"></script>
+
+<div id="header">
+    <div class="slideshow">
+      <div class="slideshow-image"></div>
+      <div class="slideshow-image"></div>
+      <div class="slideshow-image"></div>
+      <div class="slideshow-image"></div>
+    </div>
+    <div id="h1Wrap">
+      <h1>Income Tax Calculator</h1>
+    </div>
+  </div>
+  <div id="content">
+        <!-- Income Tax Form -->
+        <form name="incomeTaxForm" autocomplete="off">
+          <input id="income" type="float" step="0.01" name="income" min="0" placeholder="Income">
+           <a href="#modal" class="btn btnBig" onclick="calcIncomeTax()">Enter</a>
+          <input type="reset" name="reset" class="btn btnBig">
+        </form>
+        <!-- /Income Tax Form -->
+      </div>
+    </div>
+    
+    <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modalDialog">
+      <div class="modalBody">
+         <a href="#" class="btnClose" aria-hidden="true">×</a>
+        <p>You owe $<span id="total"></span> in Income Tax.</p>
+      </div>
+      <div class="modalFooter">
+        <a href="#" class="btn">Close</a>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal -->
+    
+    
+  </div>
+  </html>
+  
