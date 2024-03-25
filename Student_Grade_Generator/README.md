@@ -34,6 +34,6 @@ It detects the speed of a moving car and outputs 'OK' if speed is less than or e
 2. Navigate to the `student-grade-generator` directory.
 3. Open `index.html` in a web browser.
 4. Input students marks in numbers from 0 to 100.
-5. Click "Generate Grades".
+5. Click "Generate_Results".
 
 Thank You!
