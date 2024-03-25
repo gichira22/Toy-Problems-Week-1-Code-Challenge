@@ -47,9 +47,6 @@ body{
 }
 .content{
     background-color: none;
-    /*display: flex;
-    flex-direction: column;*/
-    position: absolute;
 }
 .right-box{
     display:flex;
@@ -67,7 +64,6 @@ body{
     border: 0;
     border-radius: 30px;
     font-size: 0.9rem;
-    position: relative;
 }
 .right-box button{
     height: 30px;
