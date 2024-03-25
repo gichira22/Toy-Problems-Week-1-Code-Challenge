@@ -35,4 +35,5 @@ $(window).resize(function () {
         var incomeTax = 93374 + ((income - 297350) * 0.391);
         document.getElementById("total").innerHTML = incomeTax.toFixed(2);
     }
+    
   }
