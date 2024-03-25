@@ -11,8 +11,13 @@ body{
     place-content: center;
     min-height: 100vh;    
 }
+.container{
+    padding: 20px;
+    
+}
 .result{
     position: absolute;
+    padding: 30px;
     bottom: 182px;
     width: 250px;
     height: 40px;
